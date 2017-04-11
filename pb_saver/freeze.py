@@ -7,7 +7,7 @@ input_checkpoint = '../data/net.ckpt'
 output_node_names = 'h_hidden3,argmax'
 restore_op_name = "save/restore_all"
 filename_tensor_name = "save/Const:0"
-output_graph = "../data/output_graph.pb"
+output_graph = "../data/handshape_graph.pb"
 clear_devices = True
 initializer_nodes = ''
 
